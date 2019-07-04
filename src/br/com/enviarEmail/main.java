@@ -15,8 +15,7 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        TesteEmail testeEmail = new TesteEmail();
-        testeEmail.testandoEnvioEmail();
+        ServicoDeEmail servicoEmail = new ServicoDeEmail("agostinhojunior96@gmail.com", "JAVA MAIL", "PRIMEIRO EMAIL ENVIADO COM UM PROGRAMA JAVA");
     }
 
 }
